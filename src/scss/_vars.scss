@@ -1,0 +1,18 @@
+:root {
+    --ff: "Roboto", sans-serif;
+    --black: #000;
+    --gray: #667085;
+    --secondary-color: #344054;
+    --c-border:#d0d5dd;
+  
+    --primary-color: #595085;
+  
+    //adaptive width
+  
+    $desktop-small: 1200px;
+    $tablet: 992px;
+    $tablet-small: 768px;
+    $mobile: 576px;
+    
+  }
+  

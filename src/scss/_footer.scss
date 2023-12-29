@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 13px;
+  margin-bottom: 30px;
+  &__nav {
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    transition: 0.3s all ease-in-out;
+    svg:hover path {
+      stroke: #3d3270;
+    }
+    svg:focus path {
+      stroke: #3d3270;
+    }
+  }
+}
