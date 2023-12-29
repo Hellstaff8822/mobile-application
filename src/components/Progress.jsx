@@ -85,7 +85,7 @@ export const Progress = () => {
               This is demonstrate siblings, hobbies, efforts, confidence,
               friends and short tr...
             </div>
-            <div className="item-two__arrow">
+            <div onClick={() => handleSetProgress(progress + 5)} className="item-two__arrow">
               <a href="/">
                 <img src="/src/assets/arrow-right 2.png" alt="" />
               </a>
